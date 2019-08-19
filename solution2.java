@@ -1,3 +1,5 @@
+//杨辉三角
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,6 +29,26 @@ class Solution2 {
         }
         return  list;
     }
+   /* public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> list = new ArrayList<>(numRows);
+        for(int i = 0;i < numRows;i++){
+            List<Integer> nums = new ArrayList<>();
+            nums.add(1);
+            for(int j = 0;j<=i-2;j++){
+                List<Integer> preNums = list.get(i-1);
+                int p = preNums.get(j);
+                int q = preNums.get(j+1);
+                int n = p + q;
+
+                nums.add(n);
+            }
+            if(i != 0){
+                nums.add(1);
+            }
+            list.add(nums);
+        }
+        return list;
+    }*/
      private  static  void printPasscalsTriangle(Solution2 s,int n){
          System.out.println(s.generate(n));
      }
