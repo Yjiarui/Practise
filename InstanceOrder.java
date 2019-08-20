@@ -1,5 +1,6 @@
 // 1.按照代码书写顺序，执行定义和构造代码块
 //2.再去执行构造方法
+
 class Parent{
 	{
 		System.out.println("A");
