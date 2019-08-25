@@ -1,4 +1,5 @@
-//输入符号左 自动陪符号右侧
+//输入符号左 自动配符号右
+
 
 import java.util.ArrayList;
 
