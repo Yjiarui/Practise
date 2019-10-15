@@ -17,11 +17,10 @@ public class Card {
         if(this == obj){
             return true;
         }
-
+       
         if(obj == null){
             return false;
         }
-
         //if (obj.getClass() == this.getClass())
         if(!(obj instanceof Card)){
             return false;
